@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+export default (req, res) {
   if (req.method === 'POST') {
     res.status(200).json({ body: req.body })
   } else {
